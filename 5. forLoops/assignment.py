@@ -27,5 +27,21 @@
 # print("highest score is ", highest_num)
 
 
-# for loops with the range
-# for num in range()
+# for loops with the range from 1 to 10
+# for num in range(1, 11):
+#     print(num)
+# for num in range(1, 21, 2):  # here is start, end, incrementor
+#     print(num)
+
+
+# fizzBuzz
+
+for num in range(1, 101):
+    if num % 3 == 0 and num % 5 == 0:
+        print("fizz")
+    elif num % 5 == 0:
+        print("Buzz")
+    elif num % 3 == 0:
+        print("fizzBuzz")
+    else:
+        print(num)
